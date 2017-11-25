@@ -15,4 +15,6 @@ hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
 
 feign.hystrix.enabled: true
 
+hazelcast.max.no.heartbeat.seconds: 6
+
 biz-application.name: biz-application
