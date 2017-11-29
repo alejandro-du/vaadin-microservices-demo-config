@@ -5,3 +5,8 @@ eureka:
     registryFetchIntervalSeconds: 1
   instance:
     leaseRenewalIntervalInSeconds: 1
+
+turbine:
+  aggregator:
+    clusterConfig: all
+  appConfig: admin-application, news-application, proxy-server
