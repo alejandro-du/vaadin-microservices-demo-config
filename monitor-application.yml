@@ -7,6 +7,4 @@ eureka:
     leaseRenewalIntervalInSeconds: 1
 
 turbine:
-  aggregator:
-    clusterConfig: web-apps
-  appConfig: admin-application, news-application
+  instanceUrlSuffix: application/hystrix.stream
