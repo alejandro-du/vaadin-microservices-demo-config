@@ -6,4 +6,6 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
 
+endpoints.health.enabled: true
+
 hazelcast.max.no.heartbeat.seconds: 6

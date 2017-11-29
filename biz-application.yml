@@ -6,6 +6,8 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
 
+endpoints.health.enabled: true
+
 spring:
   jpa:
     hibernate.ddl-auto: update
