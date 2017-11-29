@@ -8,5 +8,5 @@ eureka:
 
 turbine:
   aggregator:
-    clusterConfig: all
-  appConfig: admin-application, news-application, proxy-server
+    clusterConfig: web-apps
+  appConfig: admin-application, news-application
