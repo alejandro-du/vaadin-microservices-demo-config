@@ -1,11 +1,3 @@
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:7001/eureka/
-    registryFetchIntervalSeconds: 1
-  instance:
-    leaseRenewalIntervalInSeconds: 1
-
 endpoints.health.enabled: true
 
 hazelcast.max.no.heartbeat.seconds: 6
