@@ -6,5 +6,9 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
 
+endpoints.health.enabled: true
+
 turbine:
+  appConfig: biz-application, admin-application, news-application, proxy-server
+  clusterNameExpression: "'default'"
   instanceUrlSuffix: application/hystrix.stream
