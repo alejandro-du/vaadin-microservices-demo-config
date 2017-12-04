@@ -1,9 +1,9 @@
 endpoints.health.enabled: true
 
 ribbon:
-  serverListRefreshInterval: 5000
+  serverListRefreshInterval: 1000
   ConnectTimeout: 6000
-  ReadTimeout: 5000
+  ReadTimeout: 3000
   SocketTimeout: 6000
 
 zuul:
