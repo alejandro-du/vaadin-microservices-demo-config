@@ -1,6 +1,6 @@
 endpoints.health.enabled: true
 
-hazelcast.max.no.heartbeat.seconds: 6
+hazelcast.max.no.heartbeat.seconds: 10
 
 admin-application.url: http://192.168.1.39:8080/admin/companies
 

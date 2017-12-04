@@ -1,14 +1,14 @@
 endpoints.health.enabled: true
 
 ribbon:
-  serverListRefreshInterval: 1000
+  serverListRefreshInterval: 5000
   ConnectTimeout: 6000
-  ReadTimeout: 3000
+  ReadTimeout: 5000
 
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
 
 feign.hystrix.enabled: true
 
-hazelcast.max.no.heartbeat.seconds: 6
+hazelcast.max.no.heartbeat.seconds: 10
 
 biz-application.name: biz-application
