@@ -5,7 +5,9 @@ ribbon:
   ConnectTimeout: 6000
   ReadTimeout: 5000
 
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
+hystrix.command.default.execution.isolation:
+    thread.timeoutInMilliseconds: 10000
+    strategy: THREAD
 
 feign.hystrix.enabled: true
 
