@@ -1,7 +1,5 @@
 endpoints.health.enabled: true
 
-endpoints.health.enabled: true
-
 turbine:
   appConfig: biz-application, admin-application, news-application, proxy-server
   clusterNameExpression: "'default'"
