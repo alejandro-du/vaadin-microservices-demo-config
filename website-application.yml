@@ -2,6 +2,6 @@ endpoints.health.enabled: true
 
 hazelcast.max.no.heartbeat.seconds: 6
 
-admin-application.url: http://localhost:8080/admin/companies
+admin-application.url: http://localhost:8080/admin/companies/
 
-news-application.url: http://localhost:8080/news/twitter
+news-application.url: http://localhost:8080/news/twitter/
