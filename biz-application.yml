@@ -1,4 +1,4 @@
-endpoints.health.enabled: true
+management.endpoints.web.exposure.include: "*"
 
 spring:
   jpa:
