@@ -1,4 +1,4 @@
 turbine:
-  appConfig: biz-application, admin-application, news-application, website-application, proxy-server
+  appConfig: biz-application, admin-application, news-application, proxy-server
   clusterNameExpression: "'default'"
   instanceUrlSuffix: actuator/hystrix.stream
